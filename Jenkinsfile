@@ -10,29 +10,20 @@ pipeline {
         }
         stage('Jenkinsfile') {
             steps {
-                echo 'Bebelere balon to Reinvent Yourself'
+                echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
-        stage('build') {
+        stage('Stage-4') {
             steps {
-                echo "Clarusway_Way to Reinvent Yourself"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
+                echhho 'Clarusway_Way to Reinvent Yourself'
+                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
-        stage('build') {
+        stage('Stage-5') {
             steps {
-                echo "Toygar to Reinvent Yourself"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
-            }
-        }
-        stage('build') {
-            steps {
-                echo "Atlas to Reinvent Yourself"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
+                echo 'Clarusway_Way to Reinvent Yourself'
+                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
     }
